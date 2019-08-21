@@ -52,7 +52,10 @@ Alternatively both commands may be chained should a problem arise with the conta
 docker-compose down -v && docker-compose up --build -d
 ```
 
-## Playground
+Is necessary to create env, for this you can create a copy of sample.env
+```bash
+ cp sample.env .env
+```
 
 ###  Users Test
 ```javascript
