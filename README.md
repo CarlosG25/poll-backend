@@ -62,7 +62,7 @@ docker-compose down -v && docker-compose up --build -d
 
 ###  Url Back-end
 ```javascript
- http://localhost:8082
+http://localhost:8082
 ```
 
 [frontend link]: URL
