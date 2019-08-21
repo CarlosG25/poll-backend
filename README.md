@@ -11,6 +11,11 @@ Back-end for poll web app
 
 ## Pre requisites
 ### Docker
+Is necessary to create env, for this you can create a copy of sample.env
+```bash
+ cp sample.env .env
+```
+
 To install docker in ubuntu 16.04
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -50,11 +55,6 @@ docker-compose down -v
 Alternatively both commands may be chained should a problem arise with the containers
 ```bash
 docker-compose down -v && docker-compose up --build -d
-```
-
-Is necessary to create env, for this you can create a copy of sample.env
-```bash
- cp sample.env .env
 ```
 
 ###  Users Test
